@@ -6,17 +6,20 @@ def pretty_notebook(line):
     display(HTML("""
         <style>
         /* narrow output lines */
-        .text_cell_render p { width: 105ex; }
+        .text_cell_render p {
+            width: 105ex;
+        }
         .text_cell_render {
             font-family: Helvetica Neue;
             font-size: 17px;
         }
-        .CodeMirror {
-            font-family: Inconsolata;
-            font-size: 17px;
-        }
+        .text_cell_render code,
+        .text_cell_render kbd,
+        .text_cell_render pre,
+        .text_cell_render samp,
+        .CodeMirror,
         .output_text pre {
-            font-family: Inconsolata;
+            font-family: Inconsolata, monospace;
             font-size: 17px;
         }
         h1, h2 {
