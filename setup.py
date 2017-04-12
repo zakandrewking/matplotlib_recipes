@@ -10,5 +10,10 @@ setup(
     version='0.0.1',
     author='Zachary King',
     url='https://github.com/zakandrewking/mpl_recipes',
-    packages=['mpl_recipes']
+    packages=['mpl_recipes'],
+    install_requires=[
+        'brewer2mpl>=1.4.1',
+        'matplotlib>=1.4.3',
+        'seaborn>=0.6.0'
+    ]
 )

@@ -1,3 +1,3 @@
-from utils import *
-import mpl_setup
-import pretty_notebook
+from mpl_recipes.utils import *
+import mpl_recipes.mpl_setup
+import mpl_recipes.pretty_notebook
